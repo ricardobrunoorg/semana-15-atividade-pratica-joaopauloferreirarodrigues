@@ -1,4 +1,437 @@
 {
+  "treinos": [
+    {
+      "id": 1,
+      "nome": "Treino de Peito",
+      "categoria": "Membros Superiores",
+      "descricaoCurta": "Protocolo completo para hipertrofia do peitoral maior e menor.",
+      "descricaoCompleta": "Este treino foi desenvolvido para maximizar o ganho de massa muscular no peitoral. Combina exercícios compostos e isolados com técnicas avançadas de intensidade.",
+      "nivel": "Intermediário",
+      "duracao": "1h 12min",
+      "visualizacoes": "88.000",
+      "calorias": "420 kcal",
+      "series": "4x12",
+      "destaque": true,
+      "data": "2025-04-10",
+      "imagem": "assets/img/treino-peito.jpg",
+      "tags": [
+        "peito",
+        "hipertrofia",
+        "supino",
+        "academia"
+      ],
+      "exercicios": [
+        {
+          "id": 1,
+          "nome": "Supino Reto",
+          "descricao": "Exercício base para o peitoral. 4 séries de 10-12 repetições.",
+          "imagem": "assets/img/ex-1-1.jpg"
+        },
+        {
+          "id": 2,
+          "nome": "Crucifixo com Halteres",
+          "descricao": "Isolamento do peitoral. 3 séries de 12-15 repetições.",
+          "imagem": "assets/img/ex-1-2.jpg"
+        },
+        {
+          "id": 3,
+          "nome": "Crossover",
+          "descricao": "Finalização com foco no centro do peitoral. 3 séries de 15 repetições.",
+          "imagem": "assets/img/ex-1-3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Treino de Perna",
+      "categoria": "Membros Inferiores",
+      "descricaoCurta": "O treino mais temido e mais recompensador da semana.",
+      "descricaoCompleta": "Protocolo completo para quadríceps, posterior de coxa e glúteos. Inclui agachamento livre, leg press e exercícios de isolamento para um desenvolvimento equilibrado.",
+      "nivel": "Avançado",
+      "duracao": "55min",
+      "visualizacoes": "50.000",
+      "calorias": "580 kcal",
+      "series": "5x10",
+      "destaque": true,
+      "data": "2025-04-08",
+      "imagem": "assets/img/treino-perna.jpg",
+      "tags": [
+        "perna",
+        "quadríceps",
+        "glúteo",
+        "agachamento"
+      ],
+      "exercicios": [
+        {
+          "id": 1,
+          "nome": "Agachamento Livre",
+          "descricao": "Rei dos exercícios. 5 séries de 8-10 repetições.",
+          "imagem": "assets/img/ex-2-1.jpg"
+        },
+        {
+          "id": 2,
+          "nome": "Leg Press 45°",
+          "descricao": "Volume para quadríceps. 4 séries de 12 repetições.",
+          "imagem": "assets/img/ex-2-2.jpg"
+        },
+        {
+          "id": 3,
+          "nome": "Cadeira Extensora",
+          "descricao": "Isolamento de quadríceps. 3 séries de 15 repetições.",
+          "imagem": "assets/img/ex-2-3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Treino de Costas",
+      "categoria": "Membros Superiores",
+      "descricaoCurta": "Construa uma costas larga e forte com este protocolo completo.",
+      "descricaoCompleta": "Foco no grande dorsal, romboides e trapézio. Combinação de puxadas verticais e horizontais para máximo desenvolvimento e equilíbrio muscular.",
+      "nivel": "Intermediário",
+      "duracao": "1h 30min",
+      "visualizacoes": "73.000",
+      "calorias": "490 kcal",
+      "series": "4x10",
+      "destaque": true,
+      "data": "2025-04-05",
+      "imagem": "assets/img/treino-costas.jpg",
+      "tags": [
+        "costas",
+        "dorsal",
+        "remada",
+        "puxada"
+      ],
+      "exercicios": [
+        {
+          "id": 1,
+          "nome": "Barra Fixa",
+          "descricao": "Puxada com peso corporal. 4 séries até a falha.",
+          "imagem": "assets/img/ex-3-1.jpg"
+        },
+        {
+          "id": 2,
+          "nome": "Remada Curvada",
+          "descricao": "Espessura das costas. 4 séries de 10 repetições.",
+          "imagem": "assets/img/ex-3-2.jpg"
+        },
+        {
+          "id": 3,
+          "nome": "Puxada na Polia",
+          "descricao": "Largura do dorsal. 3 séries de 12 repetições.",
+          "imagem": "assets/img/ex-3-3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Treino de Ombro",
+      "categoria": "Membros Superiores",
+      "descricaoCurta": "Ombros 3D que fazem a diferença na sua silhueta.",
+      "descricaoCompleta": "Protocolo para as três cabeças do deltóide: anterior, medial e posterior. Inclui elevações laterais, desenvolvimento e movimentos para o deltoide posterior.",
+      "nivel": "Iniciante",
+      "duracao": "45min",
+      "visualizacoes": "41.000",
+      "calorias": "320 kcal",
+      "series": "3x15",
+      "destaque": false,
+      "data": "2025-04-02",
+      "imagem": "assets/img/treino-ombro.jpg",
+      "tags": [
+        "ombro",
+        "deltoide",
+        "elevação lateral"
+      ],
+      "exercicios": [
+        {
+          "id": 1,
+          "nome": "Desenvolvimento com Halteres",
+          "descricao": "Massa geral nos ombros. 4 séries de 10-12 repetições.",
+          "imagem": "assets/img/ex-4-1.jpg"
+        },
+        {
+          "id": 2,
+          "nome": "Elevação Lateral",
+          "descricao": "Deltoide medial. 4 séries de 15 repetições.",
+          "imagem": "assets/img/ex-4-2.jpg"
+        },
+        {
+          "id": 3,
+          "nome": "Crucifixo Invertido",
+          "descricao": "Deltoide posterior. 3 séries de 15 repetições.",
+          "imagem": "assets/img/ex-4-3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nome": "Treino de Bíceps e Tríceps",
+      "categoria": "Membros Superiores",
+      "descricaoCurta": "Braços completos em uma única sessão poderosa.",
+      "descricaoCompleta": "Treino antagonista que combina bíceps e tríceps na mesma sessão. Técnica de supersét para máxima eficiência e pump muscular.",
+      "nivel": "Iniciante",
+      "duracao": "50min",
+      "visualizacoes": "62.000",
+      "calorias": "280 kcal",
+      "series": "3x12",
+      "destaque": false,
+      "data": "2025-03-30",
+      "imagem": "assets/img/treino-biceps-triceps.jpg",
+      "tags": [
+        "bíceps",
+        "tríceps",
+        "braço",
+        "supersét"
+      ],
+      "exercicios": [
+        {
+          "id": 1,
+          "nome": "Rosca Direta",
+          "descricao": "Base para bíceps. 4 séries de 10-12 repetições.",
+          "imagem": "assets/img/ex-5-1.jpg"
+        },
+        {
+          "id": 2,
+          "nome": "Tríceps Pulley",
+          "descricao": "Isolamento de tríceps. 4 séries de 12 repetições.",
+          "imagem": "assets/img/ex-5-2.jpg"
+        },
+        {
+          "id": 3,
+          "nome": "Martelo com Halteres",
+          "descricao": "Braquial e braquiorradial. 3 séries de 12 repetições.",
+          "imagem": "assets/img/ex-5-3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "nome": "Treino de Abdômen",
+      "categoria": "Core",
+      "descricaoCurta": "Core forte e definido com um circuito direto ao ponto.",
+      "descricaoCompleta": "Circuito focado em reto abdominal, oblíquos e core profundo. Combina exercícios isométricos e dinâmicos para estabilidade e definição. Ideal para fechar o treino.",
+      "nivel": "Iniciante",
+      "duracao": "25min",
+      "visualizacoes": "95.000",
+      "calorias": "180 kcal",
+      "series": "4x20",
+      "destaque": false,
+      "data": "2025-03-28",
+      "imagem": "assets/img/treino-abdomen.jpg",
+      "tags": [
+        "abdômen",
+        "core",
+        "oblíquos",
+        "definição"
+      ],
+      "exercicios": [
+        {
+          "id": 1,
+          "nome": "Prancha Isométrica",
+          "descricao": "Estabilidade do core. 4 séries de 40 segundos.",
+          "imagem": "assets/img/ex-6-1.jpg"
+        },
+        {
+          "id": 2,
+          "nome": "Abdominal Supra",
+          "descricao": "Reto abdominal superior. 4 séries de 20 repetições.",
+          "imagem": "assets/img/ex-6-2.jpg"
+        },
+        {
+          "id": 3,
+          "nome": "Russian Twist",
+          "descricao": "Oblíquos. 3 séries de 20 repetições por lado.",
+          "imagem": "assets/img/ex-6-3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "nome": "Treino de Glúteos",
+      "categoria": "Membros Inferiores",
+      "descricaoCurta": "Ative e fortaleça os glúteos com foco em hipertrofia.",
+      "descricaoCompleta": "Protocolo voltado para glúteo máximo e médio, melhorando força, estética e estabilidade do quadril. Inclui exercícios com barra, máquina e peso corporal.",
+      "nivel": "Intermediário",
+      "duracao": "50min",
+      "visualizacoes": "120.000",
+      "calorias": "450 kcal",
+      "series": "4x12",
+      "destaque": true,
+      "data": "2025-03-25",
+      "imagem": "assets/img/treino-gluteo.jpg",
+      "tags": [
+        "glúteo",
+        "quadril",
+        "hip thrust",
+        "inferiores"
+      ],
+      "exercicios": [
+        {
+          "id": 1,
+          "nome": "Elevação Pélvica",
+          "descricao": "Principal para glúteo máximo. 4 séries de 12 repetições.",
+          "imagem": "assets/img/ex-7-1.jpg"
+        },
+        {
+          "id": 2,
+          "nome": "Agachamento Sumô",
+          "descricao": "Glúteos e adutores. 4 séries de 12 repetições.",
+          "imagem": "assets/img/ex-7-2.jpg"
+        },
+        {
+          "id": 3,
+          "nome": "Abdução na Máquina",
+          "descricao": "Glúteo médio. 3 séries de 15 repetições.",
+          "imagem": "assets/img/ex-7-3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "nome": "Treino HIIT Cardio",
+      "categoria": "Cardio",
+      "descricaoCurta": "Alta intensidade para queima calórica máxima em pouco tempo.",
+      "descricaoCompleta": "Treino intervalado de alta intensidade (HIIT) com blocos de esforço máximo e descansos curtos. Excelente para condicionamento cardiovascular e gasto calórico elevado no pós-treino.",
+      "nivel": "Avançado",
+      "duracao": "20min",
+      "visualizacoes": "210.000",
+      "calorias": "350 kcal",
+      "series": "6 blocos",
+      "destaque": false,
+      "data": "2025-03-22",
+      "imagem": "assets/img/treino-cardio.jpg",
+      "tags": [
+        "hiit",
+        "cardio",
+        "queima",
+        "intenso"
+      ],
+      "exercicios": [
+        {
+          "id": 1,
+          "nome": "Burpee",
+          "descricao": "Corpo inteiro. 30 segundos de esforço máximo.",
+          "imagem": "assets/img/ex-8-1.jpg"
+        },
+        {
+          "id": 2,
+          "nome": "Mountain Climber",
+          "descricao": "Cardio e core. 30 segundos por bloco.",
+          "imagem": "assets/img/ex-8-2.jpg"
+        },
+        {
+          "id": 3,
+          "nome": "Jumping Jack",
+          "descricao": "Aquecimento e cardio. 30 segundos por bloco.",
+          "imagem": "assets/img/ex-8-3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "nome": "Mobilidade e Alongamento",
+      "categoria": "Mobilidade",
+      "descricaoCurta": "Recuperação ativa para soltar o corpo e prevenir lesões.",
+      "descricaoCompleta": "Rotina de mobilidade e alongamento para os principais grupos musculares. Ideal para dias de descanso ativo ou como finalização, melhorando a flexibilidade e a recuperação.",
+      "nivel": "Iniciante",
+      "duracao": "15min",
+      "visualizacoes": "33.000",
+      "calorias": "90 kcal",
+      "series": "1 circuito",
+      "destaque": false,
+      "data": "2025-03-20",
+      "imagem": "assets/img/treino-mobilidade.jpg",
+      "tags": [
+        "mobilidade",
+        "alongamento",
+        "recuperação",
+        "flexibilidade"
+      ],
+      "exercicios": [
+        {
+          "id": 1,
+          "nome": "Alongamento de Posterior",
+          "descricao": "Cadeia posterior. Mantenha 30 segundos cada lado.",
+          "imagem": "assets/img/ex-9-1.jpg"
+        },
+        {
+          "id": 2,
+          "nome": "Mobilidade de Quadril",
+          "descricao": "Soltar o quadril. 10 repetições por lado.",
+          "imagem": "assets/img/ex-9-2.jpg"
+        },
+        {
+          "id": 3,
+          "nome": "Rotação de Tronco",
+          "descricao": "Coluna torácica. 10 repetições por lado.",
+          "imagem": "assets/img/ex-9-3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "nome": "Treino de Antebraço e Pegada",
+      "categoria": "Membros Superiores",
+      "descricaoCurta": "Pegada forte e antebraços volumosos para destravar seus levantamentos.",
+      "descricaoCompleta": "Treino dedicado a antebraços e força de pegada (grip). Fundamental para melhorar o desempenho em puxadas, remadas e levantamento terra, além da estética dos braços.",
+      "nivel": "Intermediário",
+      "duracao": "30min",
+      "visualizacoes": "28.000",
+      "calorias": "190 kcal",
+      "series": "3x15",
+      "destaque": false,
+      "data": "2025-03-18",
+      "imagem": "assets/img/treino-antebraco.jpg",
+      "tags": [
+        "antebraço",
+        "pegada",
+        "grip",
+        "força"
+      ],
+      "exercicios": [
+        {
+          "id": 1,
+          "nome": "Rosca de Punho",
+          "descricao": "Flexores do antebraço. 3 séries de 15 repetições.",
+          "imagem": "assets/img/ex-10-1.jpg"
+        },
+        {
+          "id": 2,
+          "nome": "Rosca Inversa",
+          "descricao": "Extensores e braquiorradial. 3 séries de 12 repetições.",
+          "imagem": "assets/img/ex-10-2.jpg"
+        },
+        {
+          "id": 3,
+          "nome": "Farmer's Walk",
+          "descricao": "Força de pegada. 3 séries de 30 metros.",
+          "imagem": "assets/img/ex-10-3.jpg"
+        }
+      ]
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Membros Superiores"
+    },
+    {
+      "id": 2,
+      "nome": "Membros Inferiores"
+    },
+    {
+      "id": 3,
+      "nome": "Core"
+    },
+    {
+      "id": 4,
+      "nome": "Cardio"
+    },
+    {
+      "id": 5,
+      "nome": "Mobilidade"
+    }
+  ],
   "usuarios": [
     {
       "id": 1,
